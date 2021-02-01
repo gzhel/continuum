@@ -1,0 +1,23 @@
+{
+  "name": "continuum",
+  "version": "1.0.0",
+  "description": "news project",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzhel/continuum.git"
+  },
+  "author": "Gregory Zhelyabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gzhel/continuum/issues"
+  },
+  "homepage": "https://github.com/gzhel/continuum#readme"
+}
