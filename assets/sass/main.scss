@@ -19,9 +19,22 @@
 
 // Component.
 @import 'components/section';
+@import 'components/button';
+@import 'components/form';
+@import 'components/post';
+@import 'components/author';
+@import 'components/image';
+@import 'components/actions';
+@import 'components/list';
+@import 'components/row';
+
 
 // Layout.
 @import 'layout/header';
+@import 'layout/wrapper';
+@import 'layout/menu';
+@import 'layout/main';
+@import 'layout/footer';
 
 // Base.
 

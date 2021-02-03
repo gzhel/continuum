@@ -24,12 +24,6 @@
                 </nav>
                 <nav class="main">
                     <ul>
-                        <li class="search">
-                            <a class="fa-search" href="#search">Search</a>
-                            <form id="search" class="visible" method="get" action="#">
-                                <input type="text" name="query" placeholder="Search" />
-                            </form>
-                        </li>
                         <li class="menu">
                             <a class="fa-bars" href="#menu">Menu</a>
                         </li>
@@ -38,11 +32,65 @@
             </header>
             <!--Menu-->
             <section id="menu">
-
+                <!-- Search -->
+                <section>
+                    <form class="search" method="get" action="#">
+                        <input type="text" name="query" placeholder="Search" />
+                    </form>
+                </section>
+                <!--Links-->
+                <section>
+                    <ul class="links">
+                        <li>
+                            <a href="#">
+                                <h3>Lorem ipsum</h3>
+                                <p>Feugiat tempus veroeros dolor</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h3>Dolor sit amet</h3>
+                                <p>Sed vitae justo condimentum</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <!-- Actions -->
+                <section>
+                    <ul class="actions stacked">
+                        <li><a href="#" class="button large fit">Log In</a></li>
+                    </ul>
+                </section>
             </section>
             <!--Main-->
             <section id="main">
-
+                <article class="post">
+                    <header>
+                        <div class="title">
+                            <h2>Title of post</h2>
+                            <p>Short description</p>
+                        </div>
+                        <div class="meta">
+                            <time class="published" datetime="2021-02-03">February 3, 2021</time>
+                            <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+                        </div>
+                    </header>
+                    <a href="#" class="image featured">
+                        <img src="images/pic01.jpg" alt="" />
+                    </a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto iste quod temporibus! Quia commodi vero reprehenderit veritatis sunt itaque possimus quidem. At aspernatur repellat architecto harum facere. Voluptate, nam assumenda.</p>
+                    <footer>
+                        <ul class="actions">
+                            <li>
+                                <a href="#">Continue</a>
+                            </li>
+                        </ul>
+                        <ul class="stats">
+                            <li><a href="#" class="icon solid fa-heart">35</a></li>
+                            <li><a href="#" class="icon solid fa-comment">58</a></li>
+                        </ul>
+                    </footer>
+                </article>
             </section>
             <!--Sidebar-->
             <section id="sidebar">
