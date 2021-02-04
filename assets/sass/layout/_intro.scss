@@ -1,0 +1,52 @@
+/* Intro */
+
+#intro {
+	header {
+		h2 {
+			font-size: 2em;
+			font-weight: _font(weight-heading-extrabold);
+		}
+
+		p {
+			font-size: 0.8em;
+		}
+	}
+
+	@include breakpoint('<=large') {
+		margin: 0 0 _size(section-spacing) 0;
+		text-align: center;
+
+		header {
+			h2 {
+				font-size: 2em;
+			}
+
+			p {
+				font-size: 0.7em;
+			}
+		}
+	}
+
+	@include breakpoint('<=small') {
+		margin: 0 0 _size(section-spacing-small) 0;
+		padding: 1.25em 0;
+
+		> :last-child {
+			margin-bottom: 0;
+		}
+
+		.logo {
+			margin: 0 0 (_size(element-margin) * 0.25) 0;
+		}
+
+		header {
+			h2 {
+				font-size: 1.25em;
+			}
+
+			> :last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

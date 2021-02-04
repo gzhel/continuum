@@ -17,27 +17,33 @@
     xsmall:   ( null,    480px  )
 ));
 
+// Base.
+@import 'base/reset';
+@import 'base/page';
+@import 'base/typography';
+
 // Component.
-@import 'components/section';
+@import 'components/row';
+@import 'components/author';
+@import 'components/blurb';
 @import 'components/button';
 @import 'components/form';
-@import 'components/post';
-@import 'components/author';
+@import 'components/icon';
 @import 'components/image';
-@import 'components/actions';
 @import 'components/list';
-@import 'components/row';
+@import 'components/actions';
+@import 'components/icons';
+@import 'components/posts';
+@import 'components/mini-post';
+@import 'components/post';
+@import 'components/section';
 
 
 // Layout.
 @import 'layout/header';
 @import 'layout/wrapper';
-@import 'layout/menu';
 @import 'layout/main';
+@import 'layout/sidebar';
+@import 'layout/intro';
 @import 'layout/footer';
-
-// Base.
-
-@import 'base/reset';
-@import 'base/page';
-@import 'base/typography';
+@import 'layout/menu';
