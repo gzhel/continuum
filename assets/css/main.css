@@ -1,3 +1,14 @@
+/* $palette: (
+	bg:							#ffffff,
+	bg-alt:						#f4f4f4,
+	fg:							#646464,
+	fg-bold:					#3c3b3b, // simple text
+	fg-light:					#aaaaaa,
+	border:						rgba(160,160,160,0.3),
+	border-bg:					rgba(160,160,160,0.075),
+	border-alt:					rgba(160,160,160,0.65),
+	accent:						#ffa023
+); */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 .fa,
 .fab,
@@ -5928,7 +5939,7 @@ html {
 }
 
 body {
-  background: #f4f4f4;
+  background: #474545;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -5940,7 +5951,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 /* Type */
 body, input, select, textarea {
-  color: #646464;
+  color: #ffffff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 14pt;
   font-weight: 400;
@@ -6000,7 +6011,7 @@ a:hover:before {
 }
 
 strong, b {
-  color: #3c3b3b;
+  color: #f4f4f4;
   font-weight: 700;
 }
 
@@ -6013,7 +6024,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3c3b3b;
+  color: #f4f4f4;
   font-family: "Raleway", Helvetica, sans-serif;
   font-weight: 800;
   letter-spacing: 0.25em;
@@ -7491,7 +7502,7 @@ button,
   border: 0;
   -webkit-box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
           box-shadow: inset 0 0 0 1px rgba(160, 160, 160, 0.3);
-  color: #3c3b3b !important;
+  color: #f4f4f4 !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Raleway", Helvetica, sans-serif;
@@ -7647,7 +7658,7 @@ form.search > input:first-child {
 }
 
 label {
-  color: #3c3b3b;
+  color: #f4f4f4;
   display: block;
   font-size: 0.9em;
   font-weight: 700;
@@ -7745,8 +7756,8 @@ select {
 }
 
 select option {
-  color: #3c3b3b;
-  background: #ffffff;
+  color: #f4f4f4;
+  background: #222020;
 }
 
 select:focus::-ms-value {
@@ -7785,7 +7796,7 @@ input[type="radio"] {
 input[type="checkbox"] + label,
 input[type="radio"] + label {
   text-decoration: none;
-  color: #646464;
+  color: #ffffff;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -7827,9 +7838,9 @@ input[type="radio"] + label:before {
 
 input[type="checkbox"]:checked + label:before,
 input[type="radio"]:checked + label:before {
-  background: #3c3b3b;
-  border-color: #3c3b3b;
-  color: #ffffff;
+  background: #f4f4f4;
+  border-color: #f4f4f4;
+  color: #222020;
   content: '\f00c';
 }
 
@@ -8249,7 +8260,7 @@ ul.posts article header > :last-child {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
           flex-direction: column-reverse;
-  background: #ffffff;
+  background: #222020;
   border: solid 1px rgba(160, 160, 160, 0.3);
   margin: 0 0 2em 0;
 }
@@ -8341,7 +8352,7 @@ ul.posts article header > :last-child {
 /* Post */
 .post {
   padding: 3em 3em 1em 3em ;
-  background: #ffffff;
+  background: #222020;
   border: solid 1px rgba(160, 160, 160, 0.3);
   margin: 0 0 3em 0;
   position: relative;
@@ -8396,7 +8407,7 @@ ul.posts article header > :last-child {
 }
 
 .post > header .meta .published {
-  color: #3c3b3b;
+  color: #f4f4f4;
   display: block;
   font-family: "Raleway", Helvetica, sans-serif;
   font-size: 0.7em;
@@ -8649,7 +8660,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #ffffff;
+  background-color: #222020;
   border-bottom: solid 1px rgba(160, 160, 160, 0.3);
   height: 3.5em;
   left: 0;
@@ -8986,7 +8997,7 @@ body.single #footer {
   transition: transform 0.5s ease, visibility 0.5s;
   transition: transform 0.5s ease, visibility 0.5s, -webkit-transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #ffffff;
+  background: #222020;
   border-left: solid 1px rgba(160, 160, 160, 0.3);
   -webkit-box-shadow: none;
           box-shadow: none;
